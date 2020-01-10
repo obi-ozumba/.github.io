@@ -1,8 +1,8 @@
 My personal profile page with: ObiProfile.
 
-It provides three lines of synopisis about myself.
+It provides three lines of information about myself.
 It also has links to my sample projects and
-links to my other web profiles.
+links to other web profiles of mine.
 
 Obi
 2020 
