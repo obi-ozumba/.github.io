@@ -8,7 +8,6 @@ body {
     background-color: dimgray;
     background-position: center;
     background-size: cover;
-    color: seashell;
     font-family: Arial;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -23,51 +22,76 @@ header {
 
 header p {
     display: inline;
+    text-align: center;
 }
 
 
 img {
-
     width: 18rem;
     max-width: 100% height: auto;
     border-radius: 5rem;
 }
 
 #Obi {
-
     font-size: 10rem;
     font-family: Cedarville, cursive;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
 }
 
 #motto {
-
     font-size: 1.5rem;
     font-family: Cedarville, cursive;
     font-style: oblique;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
 }
 
 #me-container {
     font-family: Cedarville, cursive;
     font-size: 1.2rem;
-
     padding-top: 1rem;
     padding-bottom: 0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: glow 10s ease infinite;
+    animation: glow 10s ease infinite;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
 .starter {
     font-family: Arial;
     font-size: 2.25rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
 }
 
 #prj-container {
     padding-top: 1rem;
     padding-bottom: 0.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: glow 10s ease infinite;
+    animation: glow 10s ease infinite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-bottom-right-radius: 2rem;
 }
 
 #profile-container {
     padding-top: 0.6rem;
     padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: glow 10s ease infinite;
+    animation: glow 10s ease infinite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    border-bottom-left-radius: 2rem;
 }
+
+
 
 .fa-laptop,
 .fa-tablet,
@@ -77,6 +101,11 @@ img {
 .ai-google-scholar-square,
 .ai-orcid {
     color: cyan;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
+}
+
+.fa-github {
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
 }
 
 footer {
@@ -84,8 +113,8 @@ footer {
 }
 
 #Contact {
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #Contact a {
@@ -97,6 +126,28 @@ footer {
 
 #C {
     font-size: 1rem;
+}
+
+@keyframes glow {
+    0% {
+        background-color: dimgray;
+    }
+
+    50% {
+        background-color: gray;
+      }
+
+    100% {
+        background-color: dimgray;
+    }
+
+    50% {
+      background-color: gray;
+    }
+}
+
+.in-section {
+    -webkit-transition: color 5s ease;
 }
 
 @media only screen and (max-width: 480px),
