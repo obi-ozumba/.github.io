@@ -17,7 +17,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: Cedarville, cursive;
 }
 
 header p {
@@ -34,7 +33,7 @@ img {
 
 #Obi {
     font-size: 10rem;
-    font-family: Cedarville, cursive;
+    font-family: Comic Sans MS;
       text-shadow: 1px 1px 2px black, 0 0 25px rgb(182, 172, 207), 0 0 5px darkblue;
 }
 
@@ -46,7 +45,7 @@ img {
 }
 
 #me-container {
-    font-family: Cedarville, cursive;
+    font-family: Comic Sans MS;
     font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 0.7rem;
@@ -77,6 +76,7 @@ img {
     margin-right: auto;
     width: 30%;
     border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
 #profile-container {
@@ -89,6 +89,7 @@ img {
     margin-right: auto;
     width: 23%;
     border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 
@@ -156,19 +157,36 @@ footer {
         font-size: 10px;
     }
 
-    header {
+/*    header {
         width: 270px;
+    }*/
+
+    #me-container {
+       width: 85%;
     }
 
     #motto {
         white-space: pre;
     }
 
+    #prj-container {
+      width: 60%;
+    }
+
+    #profile-container {
+      width: 30%;
+    }
+
+    #browser {
+      white-space: pre;
+    }
+
     img {
-        width: 95%;
+        width: 80%;
     }
 
     div {
         text-align: center;
+        max-width: 100%
     }
 }
